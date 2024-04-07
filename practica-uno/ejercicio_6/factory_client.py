@@ -1,6 +1,5 @@
 import requests
 
-# URL base de la API
 base_url = "http://localhost:8000"
 
 # Función para realizar una solicitud GET y mostrar la respuesta

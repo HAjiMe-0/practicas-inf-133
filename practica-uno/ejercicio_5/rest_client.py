@@ -1,6 +1,5 @@
 import requests
 
-# URL base de la API
 base_url = "http://localhost:8000"
 
 # Función para realizar una solicitud GET y mostrar la respuesta
@@ -26,8 +25,6 @@ def delete_request(endpoint, id):
     response = requests.delete(base_url + endpoint + f"/{id}")
     print(response.status_code)
     print(response.text)
-
-# Ejemplo de uso
 
 # Crear un nuevo animal
 nuevo_animal = {

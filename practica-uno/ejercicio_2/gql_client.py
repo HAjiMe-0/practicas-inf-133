@@ -109,7 +109,7 @@ def eliminar_planta(id):
     return response.json()
 
 if __name__ == "__main__":
-    # Ejemplo de uso
+
     print("Consultar todas las plantas:")
     print(consultar_plantas())
 
